@@ -1,15 +1,17 @@
 body {
     font-family: Arial;
+    background-color: #e3ddbc;
 }
-
 
 #mainContainer {
     width: 180px;
     height: 180px;
-    border: solid black 1px;
+    border: solid #000000 1px;
     margin: 200px auto;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #dedede;
 }
 
 .smallerBox {
@@ -19,4 +21,7 @@ body {
     border: black solid 1px;
     font-size: 40px;
     text-align: center;
+    border-radius: 10px;
+    background-color: #d3e3e3;
+    color: #ff5e63;
 }
